@@ -47,16 +47,16 @@ public class Main {
                             case 3: //set status
                                 System.out.println("Enter true or false to change the status.");
 
-                                System.out.println("Is " + tigerObject.getName() + " walking? true / false");
+                                System.out.println("Is " + tigerObject.getName() + " walking?");
                                 tigerObject.setWalking(scnr.nextBoolean());
 
-                                System.out.println("Is " + tigerObject.getName() + " roaring? true / false");
+                                System.out.println("Is " + tigerObject.getName() + " roaring?");
                                 tigerObject.setRoaring(scnr.nextBoolean());
 
-                                System.out.println("Is " + tigerObject.getName() + " sleeping? true / false");
+                                System.out.println("Is " + tigerObject.getName() + " sleeping?");
                                 tigerObject.setSleeping(scnr.nextBoolean());
 
-                                System.out.println("Is " + tigerObject.getName() + " eating? true / false");
+                                System.out.println("Is " + tigerObject.getName() + " eating?");
                                 tigerObject.setEating(scnr.nextBoolean());
                                 break;
 
@@ -111,10 +111,10 @@ public class Main {
 
                             case 3: //set status
                                 System.out.println("Enter true or false to change the status.");
-                                System.out.println("Is " + dolphinObject.getName() + " swimming? true / false");
+                                System.out.println("Is " + dolphinObject.getName() + " swimming?");
                                 dolphinObject.setSwimming(scnr.nextBoolean());
 
-                                System.out.println("Is " + dolphinObject.getName() + " eating? true / false");
+                                System.out.println("Is " + dolphinObject.getName() + " eating?");
                                 dolphinObject.setEating(scnr.nextBoolean());
                                 break;
 
