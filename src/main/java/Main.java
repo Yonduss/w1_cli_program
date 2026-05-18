@@ -157,7 +157,7 @@ public class Main {
                                 break;
 
                             case 2: //display characteristics
-                                displayAnimalCharacteristics(tigerObject);
+                                displayAnimalCharacteristics(penguinObject);
                                 System.out.println("Speed: " + penguinObject.getSpeed());
                                 break;
 
@@ -191,7 +191,7 @@ public class Main {
                                 } else if (penguinObject.isSwimming) {
                                     System.out.println(penguinObject.getName() + " is swimming " + penguinObject.getSpeed() + " km/h.");
                                 } else {
-                                    System.out.println(tigerObject.getName() + " is doing nothing.");
+                                    System.out.println(penguinObject.getName() + " is doing nothing.");
                                 }
                                 break;
 
@@ -222,7 +222,7 @@ public class Main {
                                 break;
 
                             case 2: //display characteristics
-                                displayAnimalCharacteristics(tigerObject);
+                                displayAnimalCharacteristics(eagleObject);
                                 System.out.println("Speed: " + eagleObject.getSpeed());
                                 break;
 
@@ -251,7 +251,7 @@ public class Main {
                                 } else if (eagleObject.isFlying) {
                                     System.out.println(eagleObject.getName() + " is flying at " + eagleObject.getSpeed() + " km/h.");
                                 } else {
-                                    System.out.println(tigerObject.getName() + " is doing nothing.");
+                                    System.out.println(eagleObject.getName() + " is doing nothing.");
                                 }
                                 break;
 
